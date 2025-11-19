@@ -35,6 +35,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import eclipse from './eclipse.png';
 
 export const assets = {
     user_image,
@@ -73,45 +74,88 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    eclipse
 };
 
 export const workData = [
     {
         title: 'Frontend project',
-        description: 'Web Design',
+        description: 'Bhasamitra',
         bgImage: '/work-1.png',
+        link: 'https://www.google.com/'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Full Stack Project',
+        description: 'AI-ResumeBuilder',
         bgImage: '/work-2.png',
+        link: 'https://ai-resume-builder-flax.vercel.app/'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Full Stack Project',
+        description: 'E-commerce (RedStore)',
         bgImage: '/work-3.png',
+        link: 'https://red-store-delta.vercel.app/'
+    },
+    {
+        title: 'Full Stack Project',
+        description: 'Portfolio',
+        bgImage: '/work-4.png',
+        link: 'https://bhasamitra.vercel.app/'
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: '/work-5.png',
+        link: 'https://bhasamitra.vercel.app/'
     },
+{
+        title: 'UI/UX designing',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png',
+        link: 'https://bhasamitra.vercel.app/'
+    },
+
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { 
+        icon: assets.web_icon, 
+        title: 'Web Development', 
+        description: 'Full-stack web development using modern technologies like React, Next.js, Node.js, and databases. Creating responsive, fast, and user-friendly web applications.', 
+        link: '#contact' 
+    },
+    { 
+        icon: assets.mobile_icon, 
+        title: 'Mobile App Development', 
+        description: 'Cross-platform mobile app development using React Native and Flutter. Building native-like mobile applications for iOS and Android platforms.', 
+        link: '#contact' 
+    },
+    { 
+        icon: assets.ui_icon, 
+        title: 'UI/UX Design', 
+        description: 'User interface and user experience design focusing on creating intuitive, accessible, and visually appealing digital products that users love to interact with.', 
+        link: '#contact' 
+    },
+    { 
+        icon: assets.graphics_icon, 
+        title: 'Graphics Design', 
+        description: 'Creative graphic design solutions including logos, branding, marketing materials, and digital assets that help businesses stand out and communicate effectively.', 
+        link: '#contact' 
+    },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages/Frameworks', description: 'HTML, CSS, JavaScript, React Js, Next Js, Java, Tailwind CSS' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science &Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    { img: assets.vscode, name: 'VS Code' },
+    { img: assets.firebase, name: 'Firebase' },
+    { img: assets.mongodb, name: 'MongoDB' },
+    { img: assets.figma, name: 'Figma' },
+    { img: assets.git, name: 'Git' },
+    { img: assets.eclipse, name: 'Eclipse IDE' },
 ];
