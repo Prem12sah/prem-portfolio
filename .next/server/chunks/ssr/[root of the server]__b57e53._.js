@@ -1053,7 +1053,7 @@ const workData = [
         title: 'Frontend project',
         description: 'Bhasamitra',
         bgImage: '/work-1.png',
-        link: 'https://www.google.com/'
+        link: 'https://bhasamitra-np.netlify.app/'
     },
     {
         title: 'Full Stack Project',
@@ -1070,13 +1070,13 @@ const workData = [
     {
         title: 'Full Stack Project',
         description: 'Portfolio',
-        bgImage: '/work-4.png',
+        bgImage: '/work-5.png',
         link: 'https://bhasamitra.vercel.app/'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-5.png',
+        title: 'Full stack',
+        description: 'Blog wensite',
+        bgImage: '/work-4.png',
         link: 'https://bhasamitra.vercel.app/'
     },
     {
