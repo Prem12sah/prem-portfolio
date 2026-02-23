@@ -16,9 +16,9 @@ const experienceData = [
     title: "Backend Development",
     skills: [
       { name: "Java", level: "Experienced" },
-      { name: "Spring", level: "Experienced" },
+      { name: "Node.js", level: "Experienced" },
       { name: "Git, GitHub", level: "Intermediate" },
-      { name: "MySQL", level: "Intermediate" },
+      { name: "MongoDB", level: "Intermediate" },
       { name: "RESTful APIs", level: "Intermediate" },
     ],
   },

@@ -101,13 +101,13 @@ export const workData = [
         title: 'Full Stack Project',
         description: 'Portfolio',
         bgImage: '/work-5.png',
-        link: 'https://bhasamitra.vercel.app/'
+        link: 'https://premsah-portfolio.vercel.app/'
     },
     {
-        title: 'Full stack',
-        description: 'Blog wensite',
-        bgImage: '/work-4.png',
-        link: 'https://bhasamitra.vercel.app/'
+        title: 'task management app',
+        description: 'Task Tracker',
+        bgImage: '/work-6.jpg',
+        link: 'https://task-tracker-prem.netlify.app/'
     },
 {
         title: 'UI/UX designing',
@@ -146,9 +146,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages/Frameworks', description: 'HTML, CSS, JavaScript, React Js, Next Js, Java, Tailwind CSS' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages/Frameworks', description: 'HTML,CSS,Tailwind CSS,JavaScript,Java,Python,  React.js,  Next.js,Node.js ' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science &Engineering' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 10 projects' }
 ];
 
 export const toolsData = [
