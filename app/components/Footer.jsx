@@ -33,7 +33,7 @@ const Footer = ({isDarkMode}) => {
       
       <div className='text-center sm:flex items-center justify-between border-t border-gray-200 dark:border-gray-700 mx-[10%] mt-12 py-8'>
         <p className='text-gray-600 dark:text-gray-400 mb-4 sm:mb-0'>
-          © 2025 Prem Sah. All rights reserved
+          © 2025 Prem Kumar Sah. All rights reserved
         </p>
         
         <ul className='flex items-center gap-8 justify-center'>
